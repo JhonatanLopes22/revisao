@@ -10,3 +10,16 @@
     padding: 10px 5px;
     width: 200px;
 }
+.caixa{
+    background-color: yellow;
+    width: 250px;
+}
+.caixa2{
+    background-color: yellowgreen;
+    padding: 0 25px;
+    width: 250px;
+}
+.caixa3{
+    background-color: aqua;
+    width: 60px;
+}
