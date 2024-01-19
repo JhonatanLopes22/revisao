@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .botao{
     border: 1px solid #999;
     height: 26px;
@@ -22,4 +25,39 @@
 .caixa3{
     background-color: aqua;
     width: 60px;
+}
+.faixa{
+    border: 1px solid #000;
+    height: 100px;
+    margin: 40px auto;
+    width: 400px;
+}
+.faixa h1{
+    background-color: #900;
+    color: aliceblue;
+    font-size: 1.2em;
+    left: -10px;
+    padding: 5px 0;
+    position: relative;
+    text-align: center;
+    width: 420px;
+    margin-top: 13px;
+}
+.faixa h1::before{
+    border-color: transparent #900 #900 transparent;
+    border-style: solid;
+    border-width: 5px;
+    content: "";
+    left: 0;
+    position: absolute;
+    top: -10px;
+}
+.faixa h1::after{
+    border-color: transparent transparent #900 #900 ;
+    border-style: solid;
+    border-width: 5px;
+    content: "";
+    right: 1px;
+    position: absolute;
+    top: -10px;
 }
